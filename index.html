@@ -5,81 +5,93 @@
   <meta charset="utf-8">
   <title>Parham's Personal Site</title>
   <!--External CSS we can add it to all of our webpages -->
-<link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico?v=2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <!--Internal CSS: height can be used for any element  -->
 
 <body>
   <!--Inline CSS:style="background-color:#06113C;"-->
   <hr>
-  <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFxseCZXm_Q3Q/profile-displayphoto-shrink_200_200/0/1650979021735?e=1657152000&v=beta&t=lACZxNJ4eeV6qok3fsm40simdeK2g3q4koKK4_zmhpo" alt="Parham profile picture" />
-  <h1>Parham Mohammadi</h1>
-  <p>PhD Student of Computer Science and Electerical Engineering - <em>York University</em>
-    <!--Italic-->
-  </p>
-  <h2>Contact Information</h2>
-  <table>
-    <!--Table-->
-    <tr>
-      <!--Table row-->
-      <td>
-        <!--Table element-->
-        <strong>Email Address :</strong>
-      </td>
-      <!--Bold-->
-      <td>parhammh.e@gmail.com</td>
-    </tr>
-    <tr>
-      <td><strong>Phone Number :</strong></td>
-      <!--Bold-->
-      <td>+1-647-608-4769</td>
-    </tr>
-    <tr>
-      <td><strong>LinkedIn :</strong></td>
-      <!--Bold-->
-      <td><a href="https://www.linkedin.com/in/parhammh/"><em>parhammh</em></a></td>
-    </tr>
-    <tr>
-      <td><strong>Address :</strong></td>
-      <!--Bold-->
-      <td>370 Ridelle Avenue - Toronto - Ontario-
-        M6B4B4</td>
-    </tr>
-  </table>
-  <hr>
-  <h2>Employment History</h2>
-  <table>
-    <!--Table-->
-    <tr>
-      <!--Table row-->
-      <td>
-        <!--Table element-->
-        <em>Research Assistant, York University. Toronto, Ontario</em>
-      </td>
-      <!--Bold-->
-      <td>Sep. 2019 – Present</td>
-    </tr>
-    <tr>
-      <td><em>Member, iBoost Canada</em></td>
-      <!--Bold-->
-      <td>Jan. 2021 – Present</td>
-    </tr>
-    <tr>
-      <td><em>Teaching Assistant, York University. Toronto, Ontario</em></td>
-      <!--Bold-->
-      <td>Sep. 2019 – Present</td>
-    </tr>
-    <tr>
-      <td><em>Research And Development Engineer, ChargeLab. Toronto, Ontario</em></td>
-      <!--Bold-->
-      <td>Feb. 2021 – Dec. 2021</td>
-    </tr>
-    <tr>
-      <td><em>Internship-Enterpreneurship Lead, Mitacs Accelrate. Toronto, Ontario</em></td>
-      <!--Bold-->
-      <td>Jul. 2020 – Dec. 2020</td>
-    </tr>
-  </table>
+  <div class="image">
+    <img src="images/net.png" alt="net-img">
+  </div>
+  <div class="title">
+    <h1>Parham Mohammadi</h1>
+    <p>PhD Student of Computer Science and Electerical Engineering - <em>York University</em>
+      <!--Italic-->
+    </p>
+  </div>
+  <div class="contact">
+    <h2>Contact Information</h2>
+    <table align="center">
+      <!--Table-->
+      <tr>
+        <!--Table row-->
+        <td>
+          <!--Table element-->
+          <strong>Email Address :</strong>
+        </td>
+        <!--Bold-->
+        <td>parhammh.e@gmail.com</td>
+      </tr>
+      <tr>
+        <td><strong>Phone Number :</strong></td>
+        <!--Bold-->
+        <td>+1-647-608-4769</td>
+      </tr>
+      <tr>
+        <td><strong>LinkedIn :</strong></td>
+        <!--Bold-->
+        <td><a href="https://www.linkedin.com/in/parhammh/"><em>parhammh</em></a></td>
+      </tr>
+      <tr>
+        <td><strong>Address :</strong></td>
+        <!--Bold-->
+        <td>370 Ridelle Avenue - Toronto - Ontario-
+          M6B4B4</td>
+      </tr>
+    </table>
+  </div>
+  <div class="employ">
+    <hr>
+    <h2>Employment History</h2>
+    <table align="center">
+      <!--Table-->
+      <tr>
+        <!--Table row-->
+        <td>
+          <!--Table element-->
+          <em>Research Assistant, York University. Toronto, Ontario</em>
+        </td>
+        <!--Bold-->
+        <td>Sep. 2019 – Present</td>
+      </tr>
+      <tr>
+        <td><em>Member, iBoost Canada</em></td>
+        <!--Bold-->
+        <td>Jan. 2021 – Present</td>
+      </tr>
+      <tr>
+        <td><em>Teaching Assistant, York University. Toronto, Ontario</em></td>
+        <!--Bold-->
+        <td>Sep. 2019 – Present</td>
+      </tr>
+      <tr>
+        <td><em>Research And Development Engineer, ChargeLab. Toronto, Ontario</em></td>
+        <!--Bold-->
+        <td>Feb. 2021 – Dec. 2021</td>
+      </tr>
+      <tr>
+        <td><em>Internship-Enterpreneurship Lead, Mitacs Accelrate. Toronto, Ontario</em></td>
+        <!--Bold-->
+        <td>Jul. 2020 – Dec. 2020</td>
+      </tr>
+    </table>
+  </div>
 
 
   <hr>
@@ -88,23 +100,36 @@
     computer science with industry experience in the energy sector, leadership, machine
     learning, and web automation. I'm interested in pursuing a career in data science and software development.</p>
   <hr>
-  <h2>Skills</h2>
-  <ul>
-    <!--LIst-->
-    <li>Python Programming </li>
-    <li>Data Science Python Libraries(Numpy,Pandas,etc) </li>
-    <li>Deep Learning Python Libraries (Tensorflow-Scikitlearn) </li>
-    <li>Natural Language Processing Python Libraries (Spacy , NLTK) </li>
-    <li>Web Automation Python Library(Selenium)</li>
-    <li>C# Programming</li>
-    <li>C Programming </li>
-    <li> Google Cloud Platform </li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li> Javascript</li>
-  </ul>
+  <div class="skills">
+    <h2>Skills</h2>
 
-  <hr>
+      <!--LIst-->
+      Python Programming
+      <br>
+      Data Science Python Libraries(Numpy,Pandas,etc)
+      <br>
+      Deep Learning Python Libraries (Tensorflow-Scikitlearn)
+      <br>
+      Natural Language Processing Python Libraries (Spacy , NLTK)
+      <br>
+      Web Automation Python Library(Selenium)
+      <br>
+      C# Programming
+      <br>
+      C Programming
+      <br>
+      Google Cloud Platform
+      <br>
+      HTML
+      <br>
+      CSS
+      <br>
+      Javascript
+    </ul>
+
+    <hr>
+
+  </div>
 
 </body>
 
