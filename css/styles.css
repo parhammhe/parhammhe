@@ -3,9 +3,9 @@ body {
   background-color: #099FFF;
   text-align:center;
   font-family: monospace;
-
-
 }
+
+
 
 .title{
   top: 2px;
@@ -36,28 +36,21 @@ h2 {
 p {
   color: #000000;
 }
-
-
 td {
   color: #000000;
   text-align:center;
-
 }
-
 a {
   color: #000000;
 }
 
-li {
-  color: #000000;
 }
-
 hr {
   border-style: dotted none none;
   border-color: #000000;
-  border-width: 5px;
-  height: 0;
-  width: 5%;
+  border-width: 0;
+  height: 20px;
+  width: 100%;
 }
 
 img {
