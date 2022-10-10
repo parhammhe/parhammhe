@@ -1,6 +1,6 @@
 body {
   margin: 0; /* Remove default margin */
-  background-color: #099FFF;/*#099FFF*/
+  background-color: #16181b;/*#099FFF*/
   text-align:center;/*center the text*/
   font-family: monospace;/*font style*/
 }
@@ -9,21 +9,21 @@ body {
 
 .title{/*title style*/
   top: 2px;/*position*/
-  background-color: #099FFF;/*background color*/
+  background-color: #16181b;/*background color*/
   height:100px;/*height*/
   position: static ;/*position*/
   margin: 10px;/*margin*/
   }
 
 .contact {
-  background-color: #099FFF;/*background color*/
+  background-color: #16181b;/*background color*/
   height: 200px;/*height*/
   position: relative;/*position*/
   margin: 10px;/*margin*/
   }
 h1 {
   margin-top: 0;/*margin*/
-  color: #000000;/*color*/
+  color: #ececf6;/*color*/
   font-family: 'Sacramento', cursive;/*font style*/
   font-style: oblique;/*font style*/
   font-size: 45px;/*font size*/
@@ -31,24 +31,36 @@ h1 {
 }
 
 h2 {
-  color: #000000;/*color*/
+  margin-top: auto;/*margin*/
+  color: #ececf6 !important;/*color*/
+  font-family: "JetBrains Mono", monospace;/*font style*/
+    font-style: oblique;/*font style*/
+}
+h3 {
+  margin-top: auto;/*margin*/
+  color: #ececf6 !important;/*color*/
+  font-family:"            ;/*font style*/
+    font-style: oblique;/*font style*/
 }
 
+
+
+
 p {
-  color: #000000;/*color*/
+  color: #ececf6;/*color*/
 }
 td {
-  color: #000000;/*color*/
+  color: #ececf6;/*color*/
   text-align:center;/*center the text*/
 }
 a {
-  color: #000000;/*color*/
+  color: #ececf6;/*color*/
 }
 
 }
 hr {
   border-style: dotted none none;/*border style*/
-  border-color: #000000;/*border color*/
+  border-color: #ececf6;/*border color*/
   border-width: 0;/*border width*/
   height: 20px;/*height*/
   width: 100%;/*width*/
@@ -59,15 +71,9 @@ position: relative;/*position*/
 width:110%;/*width*/
 }
 
-col-md-12 {
-  position: fixed;/*position*/
-  width: 100%;/*width*/
-  max-width: 400px;/*max width*/
-  background-color: #005cbf;/*background color*/
-}
+ul {
+  color: #ececf6;/*color*/
 
-li list-group-item {
-  background-color: #099FFF;/*background color*/
-  }
+}
 
 /* Language: css */
