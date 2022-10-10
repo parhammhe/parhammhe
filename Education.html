@@ -1,15 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+<html lang="en" dir="ltr"> <!-- This is the root element of the document. -->
 
+<head><!-- This is the head element of the document. -->
+    <meta charset="utf-8">
+    <title>Parham's Personal Site</title>
+    <!--External CSS we can add it to all of our webpages -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><!-- Bootstrap CSS -->
+    <link rel="bootstrap" href="css/Bootstrap/bootstrap.css"><!-- Local Bootstrap CSS -->
+    <link rel="bootstrap" href="css/Bootstrap/bootstrap-grid.css"><!-- Local Bootstrap CSS -->
+    <link rel="bootstrap" href="css/Bootstrap/bootstrap-reboot.css"><!-- Local Bootstrap CSS -->
+    <link rel="stylesheet" href="css/styles.css"><!--Internal CSS: height can be used for any element  -->
+    <link rel="icon" href="favicon.ico?v=2"> <!-- This is the favicon of the website. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- This is the link to the Google Fonts. -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- This is the link to the Google Fonts. -->
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet"> <!-- This is the link to the Google Fonts. -->
+</head>
+<!--Internal CSS: height can be used for any element  -->
 
 
 
 <!---------------------------------------------------------------------------------------------------->
 <body>
+<!----------------------------------------------------------------------------------------------------------->
+<!--Inline CSS:style="background-color:#06113C;"-->
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark"><!-- This is the navbar of the website. -->
+    <!-- Navbar-expand-lg: This is the class for the navbar.that fixes the size of items in navbar-->
+    <!-- Navbar-dark: This is the class for the navbar.that makes the navbar dark-->
+    <!-- bg-dark: This is the class for the navbar.that makes the background of the navbar dark-->
+    <a class="navbar-brand" href="index.html">Parham</a><!-- This is the navbar-brand of the website. -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+        <!-- This is the collapse navbar-collapse of the website. -->
+        <!-- This is the id of the navbarToggleExternalContent. -->
+        <ul class="navbar-nav m-auto"><!-- This is the navbar of the website. -->
+            <!-- Navbar-nav: This is the class for the navbar.that makes the navbar items in the center-->
+            <!-- m-auto: This is the class for the navbar.that makes the navbar items in the center-->
+            <li class="nav-item"><!-- This is the navbar of the website. -->
+                <a class="nav-link" href="index.html">Home</a>
+            <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact Information</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Skills.html">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="summary.html">Professional Summary</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Employment.html">Employment History</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Education.html">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Publications.html">Publications</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!----------------------------------------------------------------------------------------------------------->
+
+
+<div class="image">
+    <img src="images/net.png" alt="net-img">
+
+</div>
+
+<!--list of education-->
+
+            <ul>
+                <li> <h2>Education</h2></li>
+                <li> <h3>IUST</h3></li>
+                <li> <h4>Tehran, IR</h4></li>
+                <li> <h5>2011-2015</h5></li>
+                <li> <h6>Bachelor of Science</h6></li>
+                <li> <h3>AUT</h3></li>
+                <li> <h4>Tehran,IR</h4></li>
+                <li> <h5>2016-2019</h5></li>
+                <li> <h6>Master of Science</h6></li>
+                <li> <h3>York University</h3></li>
+                <li> <h4>Toronto , Ontario</h4></li>
+                <li> <h5>2019-2023</h5></li>
+                <li> <h6>PhD of Electrical Engineering and Computer Science</h6></li>
+
+
+
+
+            </ul>
+
+
+
 
 </body>
 </html>

@@ -58,3 +58,16 @@ img {
 position: relative;/*position*/
 width:110%;/*width*/
 }
+
+col-md-12 {
+  position: fixed;/*position*/
+  width: 100%;/*width*/
+  max-width: 400px;/*max width*/
+  background-color: #005cbf;/*background color*/
+}
+
+li list-group-item {
+  background-color: #099FFF;/*background color*/
+  }
+
+/* Language: css */
