@@ -1,0 +1,37 @@
+<div class="row " >
+    <div class ="col-6" style="background-color:#6f42c1;border: 1px solid;"> <!-- this is a bootstrap class that makes the column 6/12 -->
+                                                                             <!--this is not a responsive column-->
+       col
+    </div>
+
+
+Thefolowing coulmn is responsive and changes size based onscreen size
+<div class="row " >
+    <div class ="col-md-6" style="background-color:#6f42c1;border: 1px solid;"> <!-- this is a bootstrap class that makes the column 6/12 -->
+       <!--add an image:-->
+      test
+    </div>
+</div>
+In the
+<div class="row " >
+    <div class ="col-lg-3 col-md-4" style="background-color:#6f42c1;border: 1px solid;"> <!-- this is a bootstrap class that makes the column 6/12 -->
+       <!--add an image:-->
+      test
+    </div>
+    <div class ="col-lg-3 col-md-4 col-sm-6 " style="background-color:#6f42c1;border: 1px solid;"> <!-- this is a bootstrap class that makes the column 6/12 -->
+           <!--add an image:-->
+          test
+        </div>
+    <div class ="col-lg-3 col-md-4 col-sm-6" style="background-color:#6f42c1;border: 1px solid;"> <!-- this is a bootstrap class that makes the column 6/12 -->
+           <!--add an image:-->
+          test
+        </div>
+    <div class ="col-lg-3 col-md-4 col-sm-6" style="background-color:#6f42c1;border: 1px solid;"> <!-- this is a bootstrap class that makes the column 6/12 -->
+           <!--add an image:-->
+          test
+        </div>
+
+</div>
+
+The code is based on bootstrap 4.0.0-beta.2. You can find the documentation here: https://getbootstrap.com/docs/4.0/layout/grid/
+in the above code we have 3 columns that are responsive and change size based on screen size. The first column is 3/12 on large screens, 4/12 on medium screens and 6/12 on small screens. The second column is 3/12 on large screens, 4/12 on medium screens and 6/12 on small screens. The third column is 3/12 on large screens, 4/12 on medium screens and 6/12 on small screens.
