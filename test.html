@@ -11,48 +11,31 @@
   <title>Hello, world!</title>
 </head>
 <body>
-<h1>Hello, world!</h1>
-<!--Inline CSS:style="background-color:#06113C;"-->
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark"><!-- This is the navbar of the website. -->
-  <!-- Navbar-expand-lg: This is the class for the navbar.that fixes the size of items in navbar-->
-  <!-- Navbar-dark: This is the class for the navbar.that makes the navbar dark-->
-  <!-- bg-dark: This is the class for the navbar.that makes the background of the navbar dark-->
-  <a class="navbar-brand" href="index.html">Parham</a><!-- This is the navbar-brand of the website. -->
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span></button>
-  <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
-    <!-- This is the collapse navbar-collapse of the website. -->
-    <!-- This is the id of the navbarToggleExternalContent. -->
-    <ul class="navbar-nav m-auto"><!-- This is the navbar of the website. -->
-      <!-- Navbar-nav: This is the class for the navbar.that makes the navbar items in the center-->
-      <!-- m-auto: This is the class for the navbar.that makes the navbar items in the center-->
-      <li class="nav-item"><!-- This is the navbar of the website. -->
-        <a class="nav-link" href="index.html">Home</a>
-      <li class="nav-item">
-        <a class="nav-link" href="Contact.html">Contact Information</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Skills.html">Skills</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="summary.html">Professional Summary</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Employment.html">Employment History</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Education.html">Education</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Publications.html">Publications</a>
-      </li>
-    </ul>
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/logo.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/net.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/eth.jpg" class="d-block w-100" alt="...">
+    </div>
   </div>
-</nav>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
 </body>
 </html>
