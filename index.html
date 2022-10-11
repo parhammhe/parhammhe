@@ -34,35 +34,40 @@
         <ul class="navbar-nav m-auto"><!-- This is the navbar of the website. -->
           <!-- Navbar-nav: This is the class for the navbar.that makes the navbar items in the center-->
             <!-- m-auto: This is the class for the navbar.that makes the navbar items in the center-->
-          <li class="nav-item"><!-- This is the navbar of the website. -->
-            <a class="nav-link" href="index.html">Home</a>
-          <li class="nav-item">
-            <a class="nav-link" href="Contact.html">Contact Information</a>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Projects</a>
+            <ul class="dropdown-menu" > <!-- This is the dropdown-menu of the website. and its background colour -->
+              <li><a class="dropdown-item" href="summary.html" >Classical and Quantum Computing Methods for Simulation of Geomagnetic Disturbance Effect on Modern Power Systems</a></li>
+              <li><a class="dropdown-item" href="Skills.html">Machine Learning Application in Power Systems</a></li>
+              <li><a class="dropdown-item" href="Employment.html">Quantum Computing Applications in Power Systems</a></li>
+              <li><a class="dropdown-item" href="Education.html">FinTech Platform</a></li>
+              <li><a class="dropdown-item" href="Publications.html">Blockchain Architecture</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="Contact.html">Contact Me</a></li>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Skills.html">Skills</a>
+          <li class="nav-item dropdown"   >
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">About Me</a>
+            <ul class="dropdown-menu" >
+              <li><a class="dropdown-item" href="summary.html">Professional Summary</a></li>
+              <li><a class="dropdown-item" href="Skills.html">Skills</a></li>
+              <li><a class="dropdown-item" href="Employment.html">Employment History</a></li>
+                <li><a class="dropdown-item" href="Education.html">Education</a></li>
+              <li><a class="dropdown-item" href="Publications.html">Publication</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="Contact.html">Contact Me</a></li>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="summary.html">Professional Summary</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Employment.html">Employment History</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Education.html">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Publications.html">Publications</a>
-            </li>
-        </ul>
+
     </div>
   </nav>
 
 <!----------------------------------------------------------------------------------------------------------->
 
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000"  data-bs-pause="hover"><!-- This is the carousel of the website. data-bs-interval is setting the delay between slides in milliseconds , data-bs-pause = hover acts when the mouse is hovering -->
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000"  data-bs-pause="hover" ><!-- This is the carousel of the website. data-bs-interval is setting the delay between slides in milliseconds , data-bs-pause = hover acts when the mouse is hovering -->
   <div class="carousel-inner">
-    <div class="carousel-item active"><!-- This is the active carousel-item of the website. The First webpage that pops-out  -->
+    <div class="carousel-item active" ><!-- This is the active carousel-item of the website. The First webpage that pops-out  -->
       <img src="images/sun.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5> Classical and Quantum Computing Methods for Simulation of Geomagnetic Disturbance Effect on Modern Power Systems </h5>
@@ -73,7 +78,7 @@
       <img src="images/net.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5> Machine Learning </h5>
-        <p>Reinforced Learning,GANs,and Deepl-Learning application in different areas</p>
+        <p>Reinforced Learning,GANs,and Deep-Learning application in different areas</p>
       </div>
     </div>
     <div class="carousel-item">
@@ -113,7 +118,10 @@
 
 <!----------------------------------------------------------------------------------------------------------->
 
+<div class="card-logo" style="width: 18rem;">
+  <img class="card-img-top" src="images/logo.jpg" alt="Card image cap">
 
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>

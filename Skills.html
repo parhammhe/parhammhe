@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
+<!--Inline CSS:style="background-color:#06113C;"-->
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark"><!-- This is the navbar of the website. -->
   <!-- Navbar-expand-lg: This is the class for the navbar.that fixes the size of items in navbar-->
   <!-- Navbar-dark: This is the class for the navbar.that makes the navbar dark-->
@@ -25,30 +26,34 @@
     <ul class="navbar-nav m-auto"><!-- This is the navbar of the website. -->
       <!-- Navbar-nav: This is the class for the navbar.that makes the navbar items in the center-->
       <!-- m-auto: This is the class for the navbar.that makes the navbar items in the center-->
-      <li class="nav-item"><!-- This is the navbar of the website. -->
-        <a class="nav-link" href="index.html">Home</a>
-      <li class="nav-item">
-        <a class="nav-link" href="Contact.html">Contact Information</a>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Projects</a>
+        <ul class="dropdown-menu" > <!-- This is the dropdown-menu of the website. and its background colour -->
+          <li><a class="dropdown-item" href="summary.html" >Classical and Quantum Computing Methods for Simulation of Geomagnetic Disturbance Effect on Modern Power Systems</a></li>
+          <li><a class="dropdown-item" href="Skills.html">Machine Learning Application in Power Systems</a></li>
+          <li><a class="dropdown-item" href="Employment.html">Quantum Computing Applications in Power Systems</a></li>
+          <li><a class="dropdown-item" href="Education.html">FinTech Platform</a></li>
+          <li><a class="dropdown-item" href="Publications.html">Blockchain Architecture</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="Contact.html">Contact Me</a></li>
+        </ul>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Skills.html">Skills</a>
+      <li class="nav-item dropdown"   >
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">About Me</a>
+        <ul class="dropdown-menu" >
+          <li><a class="dropdown-item" href="summary.html">Professional Summary</a></li>
+          <li><a class="dropdown-item" href="Skills.html">Skills</a></li>
+          <li><a class="dropdown-item" href="Employment.html">Employment History</a></li>
+          <li><a class="dropdown-item" href="Education.html">Education</a></li>
+          <li><a class="dropdown-item" href="Publications.html">Publication</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="Contact.html">Contact Me</a></li>
+        </ul>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="summary.html">Professional Summary</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Employment.html">Employment History</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Education.html">Education</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Publications.html">Publications</a>
-      </li>
-    </ul>
+
   </div>
 </nav>
-
 
 
 <div class="image">

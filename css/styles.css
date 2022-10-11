@@ -1,6 +1,6 @@
 body {
   margin: 0; /* Remove default margin */
-  background-color: #16181b;/*#099FFF*/
+  background-color: black;/* Set a background color - code of the colour is  */
   text-align:center;/*center the text*/
   font-family: monospace;/*font style*/
 }
@@ -9,14 +9,14 @@ body {
 
 .title{/*title style*/
   top: 2px;/*position*/
-  background-color: #16181b;/*background color*/
+  background-color: black;/*background color*/
   height:100px;/*height*/
   position: static ;/*position*/
   margin: 10px;/*margin*/
   }
 
 .contact {
-  background-color: #16181b;/*background color*/
+  background-color: black;/*background color*/
   height: 200px;/*height*/
   position: relative;/*position*/
   margin: 10px;/*margin*/
@@ -54,7 +54,7 @@ td {
   text-align:center;/*center the text*/
 }
 a {
-  color: #ececf6;/*color*/
+  color: #16181b;/*color*/
 }
 
 }
@@ -77,9 +77,87 @@ ul {
 }
 
 .carousel-item{
-  height: 500px ;
+  height: 100%;/*height*/ ;
 
 }
 
+.navbar .navbar-nav .nav-link:hover {
+  color: #6c757d;/*color*/
+}
+
+
+.navbar .navbar-nav .nav-link {
+padding:1em;/*padding is the space between the border and the content*/
+  color: #ececf6;/*color*/
+  font-family: "JetBrains Mono", monospace;/*font style*/
+  font-style: normal ;/*font style*/
+  font-size: 15px;/*font size*/
+  font-weight: bold;/*font weight*/
+  text-align: center;/*center the text*/
+  text-decoration: none;/*text decoration*/
+  display: inline-block;/*display*/
+  transition-duration: 0.4s;/*transition duration*/
+  cursor: pointer;/*cursor*/
+  border-radius: 4px;/*border radius*/
+  margin: 0 2px;/*margin*/
+  /*background-color: #16181b;/*background color*/
+  /*border: 2px solid #ececf6;/*border*/
+}
+.dropdown-menu { /* Dropdown menu colour and style */
+  background-color: #818182 ;/*background color*/
+  color: #34ce57;/*color*/
+  font-family: "Segoe UI", monospace;/*font style*/
+}
+.card-logo {
+  background-color: #16181b;/*background color*/
+  color: #ececf6;/*color*/
+  font-family: "JetBrains Mono", monospace;/*font style*/
+  font-style: inherit ;/*font style*/
+  font-size: 15px;/*font size*/
+  font-weight: bold;/*font weight*/
+  text-align: center;/*center the text*/
+  text-decoration: none;/*text decoration*/
+  display: inline-block;/*display*/
+  transition-duration: 0.4s;/*transition duration*/
+  cursor: pointer;/*cursor*/
+  border-radius: 4px;/*border radius*/
+  margin: 0 2px;/*margin*/
+  /*background-color: #16181b;/*background color*/
+  /*border: 2px solid #ececf6;/*border*/
+}
+
+h5 {
+  color: #ececf6;/*color*/
+  font-family: "Segoe UI" , monospace;/*font style*/
+  font-style: unset ;/*font style*/
+  font-size: 45px;/*font size*/
+  font-weight: bold;/*font weight*/
+  text-align: center;/*center the text*/
+  text-decoration: none;/*text decoration*/
+  display: inline-block;/*display*/
+  transition-duration: 0.4s;/*transition duration*/
+  cursor: pointer;/*cursor*/
+  border-radius: 4px;/*border radius*/
+  margin: 0 2px;/*margin*/
+  /*background-color: #16181b;/*background color*/
+  /*border: 2px solid #ececf6;/*border*/
+}
+
+.carousel-caption{
+  color: #ececf6;/*color*/
+  font-family: sans-serif, monospace;/*font style*/
+  font-style: normal;/*font style*/
+  font-size: 30px;/*font size*/
+  font-weight: bold;/*font weight*/
+  text-align: center;/*center the text*/
+  text-decoration: none;/*text decoration*/
+  display: grid ;/*display*/
+  transition-duration: 0.4s;/*transition duration*/
+  cursor: pointer;/*cursor*/
+  /*border-radius: 4px;/*border radius*/
+  /*margin: 0 2px;/*margin*/
+  /*background-color: #16181b;/*background color*/
+  /*border: 2px solid #ececf6;/*border*/
+}
 
 /* Language: css */
