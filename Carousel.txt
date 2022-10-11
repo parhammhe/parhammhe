@@ -1,0 +1,8 @@
+Boots-trap carousal options
+data-bs-interval="1000" this is interval between slides in milliseconds
+data-bs-wrap="true" this is for carousel to wrap around
+data-bs-touch="true" this is for carousel to be touch enabled
+data-bs-pause="hover" this is for carousel to pause on hover
+data-bs-keyboard="true" this is for carousel to be keyboard enabled
+data-bs-ride="carousel" this is for carousel to be ride enabled
+data-bs-touch="true" this is for carousel to be touch enabled
